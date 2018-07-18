@@ -15,6 +15,9 @@
 		1F364EAE20FD157B00A380DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F364EAC20FD157B00A380DD /* LaunchScreen.storyboard */; };
 		1F364EB920FD157B00A380DD /* ProcrastinationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F364EB820FD157B00A380DD /* ProcrastinationTests.swift */; };
 		1F364EC420FD157B00A380DD /* ProcrastinationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F364EC320FD157B00A380DD /* ProcrastinationUITests.swift */; };
+		1F364ED220FE96A400A380DD /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F364ED120FE96A400A380DD /* SliderCell.swift */; };
+		1F364ED420FEA12C00A380DD /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F364ED320FEA12C00A380DD /* CountdownViewController.swift */; };
+		1FE0EC9820FFDB4000816E27 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE0EC9720FFDB4000816E27 /* PopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		1F364EBF20FD157B00A380DD /* ProcrastinationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProcrastinationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F364EC320FD157B00A380DD /* ProcrastinationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcrastinationUITests.swift; sourceTree = "<group>"; };
 		1F364EC520FD157B00A380DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F364ED120FE96A400A380DD /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
+		1F364ED320FEA12C00A380DD /* CountdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
+		1FE0EC9720FFDB4000816E27 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PopUpViewController.swift; path = Procrastination/PopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		1F364E9420FD157700A380DD = {
 			isa = PBXGroup;
 			children = (
+				1FE0EC9720FFDB4000816E27 /* PopUpViewController.swift */,
 				1F364E9F20FD157700A380DD /* Procrastination */,
 				1F364EB720FD157B00A380DD /* ProcrastinationTests */,
 				1F364EC220FD157B00A380DD /* ProcrastinationUITests */,
@@ -102,6 +109,8 @@
 				1F364EA020FD157700A380DD /* AppDelegate.swift */,
 				1F364EA220FD157700A380DD /* ViewController.swift */,
 				1F364EA420FD157700A380DD /* Main.storyboard */,
+				1F364ED320FEA12C00A380DD /* CountdownViewController.swift */,
+				1F364ED120FE96A400A380DD /* SliderCell.swift */,
 				1F364EAA20FD157B00A380DD /* Assets.xcassets */,
 				1F364EAC20FD157B00A380DD /* LaunchScreen.storyboard */,
 				1F364EAF20FD157B00A380DD /* Info.plist */,
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F364EA320FD157700A380DD /* ViewController.swift in Sources */,
+				1FE0EC9820FFDB4000816E27 /* PopUpViewController.swift in Sources */,
+				1F364ED420FEA12C00A380DD /* CountdownViewController.swift in Sources */,
 				1F364EA120FD157700A380DD /* AppDelegate.swift in Sources */,
+				1F364ED220FE96A400A380DD /* SliderCell.swift in Sources */,
 				1F364EA920FD157700A380DD /* Procrastination.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
