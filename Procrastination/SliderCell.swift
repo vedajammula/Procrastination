@@ -11,20 +11,22 @@ import Foundation
 import UIKit
 
 class SliderCell: UITableViewCell {
-    var minutes = 30
-
+    var referenceVC: ViewController?
+    var index: Int!
+    var referenceTaskTitle: CountdownViewController?
+    
     @IBOutlet weak var timerLabel: UILabel!
-    
     @IBOutlet weak var titleTextField: UITextField!
-    
     @IBOutlet weak var sliderTimer: UISlider!
     
+    
     @IBAction func slider(_ sender: UISlider) {
-        minutes = Int(sender.value)
-        timerLabel.text = String(minutes) + " minutes"
-
+        referenceVC?.tasks[index].sliderMaxTime = Int(sender.value)
+        let time = referenceVC?.tasks[index].sliderMaxTime
+        timerLabel.text = String(time!) + " minutes"
     }
-    
-    
+    @IBAction func taskTitle(_ sender: UITextField) {
+        
+    }
     
 }

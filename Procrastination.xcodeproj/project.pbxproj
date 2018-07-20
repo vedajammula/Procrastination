@@ -18,6 +18,7 @@
 		1F364ED220FE96A400A380DD /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F364ED120FE96A400A380DD /* SliderCell.swift */; };
 		1F364ED420FEA12C00A380DD /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F364ED320FEA12C00A380DD /* CountdownViewController.swift */; };
 		1FE0EC9820FFDB4000816E27 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE0EC9720FFDB4000816E27 /* PopUpViewController.swift */; };
+		1FF01EBB2101397300D9B1D3 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF01EBA2101397300D9B1D3 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		1F364ED120FE96A400A380DD /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
 		1F364ED320FEA12C00A380DD /* CountdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
 		1FE0EC9720FFDB4000816E27 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PopUpViewController.swift; path = Procrastination/PopUpViewController.swift; sourceTree = "<group>"; };
+		1FF01EBA2101397300D9B1D3 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				1F364EA020FD157700A380DD /* AppDelegate.swift */,
 				1F364EA220FD157700A380DD /* ViewController.swift */,
+				1FF01EBA2101397300D9B1D3 /* Task.swift */,
 				1F364EA420FD157700A380DD /* Main.storyboard */,
 				1F364ED320FEA12C00A380DD /* CountdownViewController.swift */,
 				1F364ED120FE96A400A380DD /* SliderCell.swift */,
@@ -273,6 +276,7 @@
 				1F364ED420FEA12C00A380DD /* CountdownViewController.swift in Sources */,
 				1F364EA120FD157700A380DD /* AppDelegate.swift in Sources */,
 				1F364ED220FE96A400A380DD /* SliderCell.swift in Sources */,
+				1FF01EBB2101397300D9B1D3 /* Task.swift in Sources */,
 				1F364EA920FD157700A380DD /* Procrastination.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
