@@ -14,7 +14,7 @@ class CountdownViewController: UIViewController {
     
     @IBOutlet weak var timeLabel: UILabel!
     
-    var tasks = [Task]()
+  //  var tasks = [Task]()
     
     var multipleTimers: [Int]?
     
